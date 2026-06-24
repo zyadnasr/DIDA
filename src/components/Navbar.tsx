@@ -27,7 +27,7 @@ export default function Navbar() {
       >
         <div className="container mx-auto px-6">
           <div className={`flex items-center justify-between transition-all duration-500 ${
-            isScrolled ? 'glass-panel rounded-full px-8 py-3 shadow-2xl shadow-black/50' : 'px-2'
+            isScrolled ? 'bg-white/10 backdrop-blur-md border border-white/10 rounded-full px-8 py-3 shadow-2xl shadow-black/50' : 'px-2'
           }`}>
             <Link to="/" className="font-serif text-2xl lg:text-3xl text-beige-100 tracking-widest relative z-50">
               DIDA<span className="text-beige-800">.</span>

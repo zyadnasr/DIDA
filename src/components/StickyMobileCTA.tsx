@@ -30,7 +30,7 @@ export default function StickyMobileCTA() {
           transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
           className="fixed bottom-6 left-6 right-6 z-[999] md:hidden"
         >
-          <div className="glass-panel rounded-full p-2 flex items-center shadow-2xl shadow-black/50 border border-white/10">
+          <div className="bg-white/10 backdrop-blur-md border border-white/10 rounded-full p-2 flex items-center shadow-2xl shadow-black/50">
             <a 
               href="https://wa.me/201067451891"
               target="_blank"

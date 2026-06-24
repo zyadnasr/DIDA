@@ -2,6 +2,7 @@ import { motion, useScroll, useTransform } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import heroImage from '../images/hero-section-2.webp';
 
 export default function Hero() {
   const containerRef = useRef(null);
@@ -19,7 +20,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-brand-black/50 z-10"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-brand-black/60 z-10"></div>
         <img
-          src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+          src={heroImage}
           alt="Women in sportswear"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
