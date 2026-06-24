@@ -1,0 +1,8 @@
+{
+  "name": "Dida Sports Wear",
+  "description": "Premium local fashion and sportswear brand presence for Dida Sports Wear in Zagazig, Egypt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
